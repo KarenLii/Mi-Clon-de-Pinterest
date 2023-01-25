@@ -1,0 +1,207 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0;
+    padding: 0;
+    color: rgb(33, 25, 34);
+}
+
+header {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-pinterest {
+    padding: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #navbar-pinterest #menu-des:hover {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+#icono-pinterest {
+    height: 40px;
+    width: 40px;
+}
+
+#icono-pinterest:hover {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    filter: none;
+}
+
+.menu {
+    margin: 0.5em;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu1 {
+    margin: 0;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buscador {
+    height: 50%;
+    width: 500px;
+    padding-left: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: rgba(33, 25, 34, 10%);
+    outline: none;
+    border: none;
+}
+
+#notificaciones, #mensajes, #foto-de-perfil, #desplegable-1, #desplegable-2 {
+    margin: 1em;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#notificaciones:hover {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    filter: none;
+}
+
+#mensajes:hover {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    filter: none;
+}
+
+#desplegable-1 {
+    margin-left: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#desplegable-1:hover {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    filter: none;
+}
+
+#buscador-search {
+    padding: auto;
+    margin: 0;
+}
+
+#foto-de-perfil img {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#foto-de-perfil:hover {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    filter: none;
+}
+
+#desplegable-2:hover {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+    filter: none;
+}
+
+.Etiquetas {
+    margin: 1.2em;
+    text-decoration: none;
+}
+
+.mi-inicio img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.mi-inicio {
+    columns: 7 250px;
+    column-gap: 0.5em;
+}
+
+div .tarjetas-de-imagenes:hover {
+    border-radius: 10px;
+    box-shadow: 1em;
+    cursor:pointer;
+    transition: initial;
+}
+
+div .tarjetas-de-imagenes {
+    max-width: 100%;
+    object-fit: fill;
+}
+
+.boton-guardar {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        width: 480px;
+    }
+}
